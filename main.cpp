@@ -10,8 +10,7 @@
 	#else
 		#include <unistd.h>
 	#endif
-#include "..\CRUD_cpp _Cword\Helper\clearFunction.cpp"
-#include "..\CRUD_cpp _Cword\Helper\enterFunction.cpp"
+
 
 using namespace std;
     //variabel untuk biodata lengkap karyawan
@@ -22,7 +21,23 @@ using namespace std;
         int pengalaman;
         int gaji;
 
+//functiion clear agar fungsi clear bisa dipakai di berbagai OS yang tersedia
+void clear(){ 
+    #if defined(__linux__) || defined(__unix__) || defined(__APPLE__)
+        system("clear");
+    #endif
 
+    #if defined(_WIN32) || defined(_WIN64)
+        system("cls");
+    #endif
+}
+
+//function untuk enter
+void enter(void){
+            cout<<"\n\n\n Tekan enter untuk kembali\n\n";
+            cin.get();
+            cin.get();
+}
 
 //function untuk menampilkan list karyawan
 void listKaryawan(void) { //akan menampilkan data berupa nama, id, dan jabatan
