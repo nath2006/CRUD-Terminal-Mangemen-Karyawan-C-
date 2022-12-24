@@ -231,6 +231,39 @@ void options(void){ //menu
             }
 
 int main () {
+	int login(); //memanggil function login yang telah kita buat
+	login();
     options();
     return 0;
 }
+
+int login(){ //function login
+   string pass ="";
+   string user ="";
+   char ch;
+   cout <<"\n\n\n\n\t\t\t\t\tSISTEM MANAJEMEN KARYAWAN";
+   cout <<"\n\n\n\n\n\t\t\t\t\tMasukan Username Anda :";
+   cin>>user;
+   cout<<"\n\t\t\t\t\tMasukan Password Anda :";
+   ch = _getch();
+   while(ch != 13){//karakter ke-13 adalah enter
+      pass.push_back(ch);
+      cout << '*';
+      ch = _getch();
+   }
+   if(pass == "pass" && user =="admin"){
+   	cout<<"\n\n\n\t\t\t\t\tLOADING \n\t\t\t\t\t";
+   	for(int a=1;a<8;a++) // Kalian bisa ganti 'a<?' sebanyak * yang kamu mau
+	{
+		Sleep(500);
+		cout << "...";
+	}
+      cout << "\n\n\n\t\t\t\t\tAkses Login Sukses!! \n\n\n";
+      system("PAUSE");
+    clear();
+   }else{
+      cout << "\n\n\n\t\t\t\t\tAkses Login Ditolak...\n\n\n";
+      login();
+   }
+}
+
