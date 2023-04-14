@@ -1,0 +1,16 @@
+# ninja log v5
+9	241	7031661756943160	CMakeFiles/CRUD_Project_Version2_0.dir/helper/clear.cpp.obj	3f2a85687f29f9c5
+1	642	7031661761010834	CMakeFiles/CRUD_Project_Version2_0.dir/helper/enter.cpp.obj	61c35db787603a27
+11	521	7031704617832257	CMakeFiles/CRUD_Project_Version2_0.dir/BusniessLogic/addDataKaryawan.cpp.obj	4a43b44417fd1deb
+8	518	7031704617782289	CMakeFiles/CRUD_Project_Version2_0.dir/testing.cpp.obj	14181c17d7a0e22d
+19	2039	7031661774987384	CMakeFiles/CRUD_Project_Version2_0.dir/main.cpp.obj	7a1f05da093ee8b0
+9	119	7031684840740180	CMakeFiles/CRUD_Project_Version2_0.dir/model/dataKaryawan.cpp.obj	c621298e745cd141
+521	682	7031704619366817	CRUD_Project_Version2_0.exe	8ac7ef695f3dc19f
+0	179	7031710346543125	build.ninja	8937e48a3adb9ba3
+3	519	7031704617792279	CMakeFiles/CRUD_Project_Version2_0.dir/BusniessLogic/editDataKaryawan.cpp.obj	41f86c9512e85db2
+3	503	7031713211108532	CMakeFiles/CRUD_Project_Version2_0.dir/BusniessLogic/deleteDataKaryawan.cpp.obj	15f2be23925c0851
+12	510	7031713211128528	CMakeFiles/CRUD_Project_Version2_0.dir/Views/viewsDataList.cpp.obj	d869160d489a538a
+510	1007	7031713215722829	CMakeFiles/CRUD_Project_Version2_0.dir/Views/viewsDataDetail.cpp.obj	f6d50ba247d8a34a
+8	1774	7031713223798220	CMakeFiles/CRUD_Project_Version2_0.dir/Views/login.cpp.obj	985d059b5e35faca
+506	2257	7031713228644049	CMakeFiles/CRUD_Project_Version2_0.dir/main.cpp.obj	7a1f05da093ee8b0
+2257	2435	7031713230349123	CRUD_Project_Version2_0.exe	cd193a070a2548a1
