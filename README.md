@@ -1,4 +1,4 @@
-# CRUD Project Managemen Karyawan version 3.0
+# CRUD Project Managemen Karyawan version 1.0
 
 <p align="center">
 <img src="./preview-img-readme/login-preview.png"/>
