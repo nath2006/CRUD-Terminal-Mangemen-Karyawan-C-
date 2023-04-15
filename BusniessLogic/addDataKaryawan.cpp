@@ -11,7 +11,7 @@
 using namespace std;
 using namespace helper;
 
-void busnieesLogic::addDataKaryawan(void) {
+void busnieesLogic::addDataKaryawan( ) {
     Karyawan karyawan;
     clear();
     cout<<"\t\t\tSISTEM MANAJEMEM KARYAWAN\n";
